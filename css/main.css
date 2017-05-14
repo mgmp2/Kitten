@@ -16,31 +16,17 @@ img {
   display: flex;
   height: 100vh;
   width: 100%;
-  background-image: url(../assets/images/Landscape.jpg);
   justify-content: center;
   align-items: flex-end;
-}
-.gatito {
-  width: 50%;
-  height: 29%;
-  background-repeat: no-repeat;
-  background-image: url(../assets/images/kitten-large.png);
-  background-size: contain;
+  background-image: url(../assets/images/mañana.jpg);
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
   .box-kitten {
-    background-image: url(../assets/images/dawn.png);
+    background-image: url(../assets/images/tarde.png);
   }
-  .gatito {
-    background-image: url(../assets/images/kitten-medium.png);
-  }
-}
-@media(max-width: 480px) {
+@media(max-width: 640px) {
   .box-kitten {
-    background-image: url(../assets/images/maxresdefault.jpg);
-  }
-  .gatito {
-    background-image: url(../assets/images/kitten-small.png);
+    background-image: url(../assets/images/noche.jpg);
   }
 }

@@ -10,7 +10,14 @@
   </head>
   <body>
     <div class="box-kitten">
-      <picture class="gatito"></picture>
+      <picture>
+        <!-- cat sleep when the screen is less that 640px -->
+        <source media="(max-width: 640px)" srcset="assets/images/kitten-sleep.png">
+          <!-- cat-medium when the screen is less that 1024px -->
+        <source media="(max-width: 1024px)" srcset="assets/images/kitten-medium.png">
+          <!-- cat get up when the screen is more that 1024px -->
+        <img src="assets/images/kitten-get-up.png" alt="cat get up">
+      </picture>
 
     </div>
   </body>
